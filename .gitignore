@@ -1,0 +1,75 @@
+# Operative databaser (inkludert tilleggsfiler for SQLite)
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.mdb
+*.accdb
+
+# Datakilder, masterark, inventarer og lokale uttrekk
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.tsv
+*.parquet
+*.zip
+*.7z
+*.rar
+*.tar
+*.tgz
+*.tar.gz
+*.tar.xz
+*.siard
+
+# Lokale mapper, aldri del av modellrepoet
+/data/
+/local/
+/private/
+/exports/
+/imports/
+/inventory/
+/backups/
+/output/
+/work/
+/tmp/
+/temp/
+
+# Hemmeligheter og lokale innstillinger
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+config.local.*
+settings.local.*
+secrets.*
+
+# Python og utviklingsfiler
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+*.log
+/build/
+/dist/
+*.egg-info/
+
+# Operativsystem og editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.swp
+*.swo
